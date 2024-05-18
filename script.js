@@ -44,6 +44,8 @@ const fromLeft = document.getElementsByClassName('from-left')
 
 
 document.addEventListener("DOMContentLoaded", (event) => {
+  setTimeout(() => {
+
     document.getElementById("loading").style.display = "none";
     // gsap code here!
     gsap.from(body, {
@@ -93,6 +95,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
         x: 0,
         duration: 2,
       });
+  },500);
 
 
    });
