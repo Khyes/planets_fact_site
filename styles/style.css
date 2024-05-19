@@ -54,6 +54,17 @@ nav {
     z-index: 88;
 }
 
+.nav-container {
+    align-items: center;
+}
+
+nav .left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
 
 .planet-page {
     padding: 10rem 8rem 0rem 8rem;
@@ -198,8 +209,8 @@ button {
     }
 
     nav .p-9 {
-        padding-right: 1rem;
-        padding-left: 1rem;
+        padding-right: 2rem!important;
+        padding-left: 2rem!important;
     }
 
     .planet-page {

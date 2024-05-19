@@ -13,19 +13,19 @@ var overviewBtnNav = document.getElementById('overview-btn-nav');
 
     overviewBtn.addEventListener('click', function() {
         gsap.from(internalInfo, {
-            opacity: 1, // background-color
+            opacity: 1, 
             duration: 1,
           });
         gsap.to(internalInfo, {
-            opacity: 0, // background-color
+            opacity: 0, 
             duration: 1,
           });
         gsap.from(geologyInfo, {
-            opacity: 1, // background-color
+            opacity: 1, 
             duration: 1,
           });
         gsap.to(geologyInfo, {
-            opacity: 0, // background-color
+            opacity: 0, 
             duration: 1,
           });
 
@@ -39,11 +39,11 @@ var overviewBtnNav = document.getElementById('overview-btn-nav');
             internalInfo.style.display = 'none';
             geologyInfo.style.display = 'none';
             gsap.from(overviewInfo, {
-                opacity: 0, // background-color
+                opacity: 0, 
                 duration: 1,
               });
             gsap.to(overviewInfo, {
-                opacity: 1, // background-color
+                opacity: 1, 
                 duration: 1,
               });
             
@@ -52,19 +52,19 @@ var overviewBtnNav = document.getElementById('overview-btn-nav');
 
     internalBtn.addEventListener('click', function() {
         gsap.from(overviewInfo, {
-            opacity: 1, // background-color
+            opacity: 1, 
             duration: 1,
           });
         gsap.to(overviewInfo, {
-            opacity: 0, // background-color
+            opacity: 0, 
             duration: 1,
           });
         gsap.from(geologyInfo, {
-            opacity: 1, // background-color
+            opacity: 1, 
             duration: 1,
           });
         gsap.to(geologyInfo, {
-            opacity: 0, // background-color
+            opacity: 0, 
             duration: 1,
           });
 
@@ -79,11 +79,11 @@ var overviewBtnNav = document.getElementById('overview-btn-nav');
             geologyInfo.style.display = 'none';
 
             gsap.from(internalInfo, {
-                opacity: 0, // background-color
+                opacity: 0, 
                 duration: 1,
               });
             gsap.to(internalInfo, {
-                opacity: 1, // background-color
+                opacity: 1, 
                 duration: 1,
               });
             
@@ -92,19 +92,19 @@ var overviewBtnNav = document.getElementById('overview-btn-nav');
 
     geologyBtn.addEventListener('click', function() {
         gsap.from(overviewInfo, {
-            opacity: 1, // background-color
+            opacity: 1, 
             duration: 1,
           });
         gsap.to(overviewInfo, {
-            opacity: 0, // background-color
+            opacity: 0, 
             duration: 1,
           });
         gsap.from(internalInfo, {
-            opacity: 1, // background-color
+            opacity: 1, 
             duration: 1,
           });
         gsap.to(internalInfo, {
-            opacity: 0, // background-color
+            opacity: 0, 
             duration: 1,
           });
 
@@ -118,11 +118,11 @@ var overviewBtnNav = document.getElementById('overview-btn-nav');
             internalInfo.style.display = 'none';
             geologyInfo.style.display = 'block';
             gsap.from(geologyInfo, {
-                opacity: 0, // background-color
+                opacity: 0, 
                 duration: 1,
               });
             gsap.to(geologyInfo, {
-                opacity: 1, // background-color
+                opacity: 1, 
                 duration: 1,
               });
             
@@ -143,19 +143,19 @@ var overviewBtnNav = document.getElementById('overview-btn-nav');
 
     overviewBtnNav.addEventListener('click', function() {
         gsap.from(internalInfo, {
-            opacity: 1, // background-color
+            opacity: 1, 
             duration: 1,
           });
         gsap.to(internalInfo, {
-            opacity: 0, // background-color
+            opacity: 0, 
             duration: 1,
           });
         gsap.from(geologyInfo, {
-            opacity: 1, // background-color
+            opacity: 1, 
             duration: 1,
           });
         gsap.to(geologyInfo, {
-            opacity: 0, // background-color
+            opacity: 0, 
             duration: 1,
           });
 
@@ -171,11 +171,11 @@ var overviewBtnNav = document.getElementById('overview-btn-nav');
             internalInfo.style.display = 'none';
             geologyInfo.style.display = 'none';
             gsap.from(overviewInfo, {
-                opacity: 0, // background-color
+                opacity: 0, 
                 duration: 1,
               });
             gsap.to(overviewInfo, {
-                opacity: 1, // background-color
+                opacity: 1, 
                 duration: 1,
               });
             
@@ -184,19 +184,19 @@ var overviewBtnNav = document.getElementById('overview-btn-nav');
 
     internalBtnNav.addEventListener('click', function() {
         gsap.from(overviewInfo, {
-            opacity: 1, // background-color
+            opacity: 1, 
             duration: 1,
           });
         gsap.to(overviewInfo, {
-            opacity: 0, // background-color
+            opacity: 0, 
             duration: 1,
           });
         gsap.from(geologyInfo, {
-            opacity: 1, // background-color
+            opacity: 1, 
             duration: 1,
           });
         gsap.to(geologyInfo, {
-            opacity: 0, // background-color
+            opacity: 0, 
             duration: 1,
           });
 
@@ -211,11 +211,11 @@ var overviewBtnNav = document.getElementById('overview-btn-nav');
             geologyInfo.style.display = 'none';
 
             gsap.from(internalInfo, {
-                opacity: 0, // background-color
+                opacity: 0, 
                 duration: 1,
               });
             gsap.to(internalInfo, {
-                opacity: 1, // background-color
+                opacity: 1, 
                 duration: 1,
               });
             
@@ -224,19 +224,19 @@ var overviewBtnNav = document.getElementById('overview-btn-nav');
 
     geologyBtnNav.addEventListener('click', function() {
         gsap.from(overviewInfo, {
-            opacity: 1, // background-color
+            opacity: 1, 
             duration: 1,
           });
         gsap.to(overviewInfo, {
-            opacity: 0, // background-color
+            opacity: 0, 
             duration: 1,
           });
         gsap.from(internalInfo, {
-            opacity: 1, // background-color
+            opacity: 1, 
             duration: 1,
           });
         gsap.to(internalInfo, {
-            opacity: 0, // background-color
+            opacity: 0, 
             duration: 1,
           });
 
@@ -250,11 +250,11 @@ var overviewBtnNav = document.getElementById('overview-btn-nav');
             internalInfo.style.display = 'none';
             geologyInfo.style.display = 'block';
             gsap.from(geologyInfo, {
-                opacity: 0, // background-color
+                opacity: 0, 
                 duration: 1,
               });
             gsap.to(geologyInfo, {
-                opacity: 1, // background-color
+                opacity: 1, 
                 duration: 1,
               });
             
