@@ -98,6 +98,7 @@ spline-viewer {
 
 section  .title  h1 {
     font-size: 50px;
+    font-weight: 700;
 }
 
 .active {
@@ -264,6 +265,7 @@ button {
     .section-index h1 {
         line-height: 1;
         margin-bottom: 1rem;
+        font-weight: 700;
     }
 }
 
@@ -353,10 +355,10 @@ button {
     .stat2 { grid-area: 5 / 1 / 6 / 2; }
     .stat3 { grid-area: 6 / 1 / 7 / 2; }
     .stat4 { grid-area: 7 / 1 / 8 / 2; }
-
+/* 
     .btns-mobile {
 
-    }
+    } */
 
     .btns-mobile button {
         height: fit-content;
