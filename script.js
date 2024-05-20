@@ -150,10 +150,11 @@ window.onload = function() {
         x: 0,
         duration: 2,
       });
-  },500);
+  },1000);
 
 
-   };
+};
+
     
 
 // Select all <a> elements and iterate over them to add event listeners
