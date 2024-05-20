@@ -189,6 +189,16 @@ document.querySelectorAll("a").forEach(function(link) {
             y: 100, // background-color
             duration: 2,
           });
+
+          gsap.from(fromTop, {
+            y: 0, // background-color
+            duration: 2,
+          });
+        gsap.to(fromTop, {
+            y: -100, // background-color
+            duration: 2,
+          });
+    
     
         gsap.from(fromRight, {
             x: 0, // background-color
