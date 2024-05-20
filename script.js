@@ -84,6 +84,7 @@ function myFunction() {
 const body = document.querySelector('body')
 const nav = document.querySelector('nav')
 const fromBottom = document.getElementsByClassName('from-bottom')
+const fromTop = document.getElementsByClassName('from-top')
 const fromRight = document.getElementsByClassName('from-right')
 const fromLeft = document.getElementsByClassName('from-left')
 
@@ -95,11 +96,11 @@ document.addEventListener("DOMContentLoaded", (event) => {
     // gsap code here!
     gsap.from(body, {
         opacity: 0, // background-color
-        duration: 4,
+        duration: 2,
       });
     gsap.to(body, {
         opacity: 1, // background-color
-        duration: 4,
+        duration: 2,
       });
     gsap.from(nav, {
         y: -100, // background-color
@@ -115,6 +116,15 @@ document.addEventListener("DOMContentLoaded", (event) => {
         duration: 2,
       });
     gsap.to(fromBottom, {
+        y: 0, // background-color
+        duration: 2,
+      });
+
+    gsap.from(fromTop, {
+        y: -100, // background-color
+        duration: 2,
+      });
+    gsap.to(fromTop, {
         y: 0, // background-color
         duration: 2,
       });

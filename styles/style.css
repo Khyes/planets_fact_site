@@ -14,6 +14,8 @@
 
 body {
     min-height: 100dvh;
+    max-width: 100dvw;
+    /* overflow: hidden; */
     background-color: black;
 }
 
