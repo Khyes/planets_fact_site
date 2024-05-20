@@ -89,7 +89,7 @@ const fromRight = document.getElementsByClassName('from-right')
 const fromLeft = document.getElementsByClassName('from-left')
 
 
-document.addEventListener("DOMContentLoaded", (event) => {
+window.onload = function() {
   setTimeout(() => {
 
     document.getElementById("loading").style.display = "none";
@@ -153,7 +153,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
   },500);
 
 
-   });
+   };
     
 
 // Select all <a> elements and iterate over them to add event listeners
