@@ -368,16 +368,24 @@ button {
     .stat2 { grid-area: 5 / 1 / 6 / 2; }
     .stat3 { grid-area: 6 / 1 / 7 / 2; }
     .stat4 { grid-area: 7 / 1 / 8 / 2; }
-/* 
-    .btns-mobile {
 
-    } */
+    .btns-mobile::after {
+        content: "";
+        position: absolute;
+        border-bottom: 1px solid #737373;
+        width: 100vw;
+        top: 7px;
+    }
+
+    .btns-mobile {
+        border: none;
+    }
 
     .btns-mobile button {
         height: fit-content;
         font-size: 12px;
-        margin-top: -1rem;
-        padding-bottom: 1.45rem;
+        margin-top: -2rem;
+        padding-bottom: 1rem;
         border-bottom: 5px solid transparent;
         transition: border-color 1000ms ease-in-out;
     }
