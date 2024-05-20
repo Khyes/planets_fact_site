@@ -305,10 +305,11 @@ button {
         color: white;
         position: fixed;
         top: 103px;
-        background-color: rgba(0, 0, 0, 0.592);
+        background-color: rgba(0, 0, 0, 0.9);
         padding-top: 3rem;
         padding-left: 2rem;
         border-left: 1px solid rgba(255, 255, 255, 0.5);
+        z-index: 9999;
     }
 
     .link-container {
@@ -326,6 +327,7 @@ button {
 
     .info-container {
         display: block;
+        z-index: 1!important;
     }
 
     .info-container  .info {
@@ -373,21 +375,32 @@ button {
         content: "";
         position: absolute;
         border-bottom: 1px solid #737373;
-        width: 100vw;
-        top: 7px;
+        width: 100dvw;
+        top: 39px;
     }
 
     .btns-mobile {
         border: none;
+        position: fixed;
+        width: 100dvw;
+        margin-top: -58px;
+        right: 0;
+        height: 40px;
+        background-color: rgba(0, 0, 0, 0.592);
+        --tw-backdrop-blur: blur(8px);
+        -webkit-backdrop-filter: var(--tw-backdrop-blur);
+        backdrop-filter: var(--tw-backdrop-blur) ;
+        z-index: 10;
     }
 
     .btns-mobile button {
         height: fit-content;
         font-size: 12px;
-        margin-top: -2rem;
-        padding-bottom: 1rem;
+        padding-bottom: 5px;
         border-bottom: 5px solid transparent;
         transition: border-color 1000ms ease-in-out;
+        padding-top: 12px;
+        font-weight: 200;
     }
 
     .info {
@@ -412,6 +425,7 @@ button {
     .stat1, .stat2, .stat3, .stat4 {
         margin-right: 0!important;
         margin-top: 1rem!important;
+        z-index: 1!important;
     }
 
 
