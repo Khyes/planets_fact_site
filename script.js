@@ -13,16 +13,35 @@ function myFunction() {
 
       setTimeout(function() {
         x.style.display = "none";
+      },2000);
+
+      gsap.from(close, {
+        opacity: 1,
+        duration: 0.5,
+      })
+
+      gsap.to(close, {
+        opacity: 0,
+        duration: 0.5,
+      })
+      setTimeout(function() {
         close.classList.add('fa-bars');
         close.classList.remove('fa-xmark');
 
-      },2000);
+        gsap.from(close, {
+          opacity: 0,
+          duration: 0.5,
+        })
+  
+        gsap.to(close, {
+          opacity: 1,
+          duration: 0.5,
+        })
+
+      }, 500);
 
     
     } else {
-      x.style.display = "block";
-      close.classList.add('fa-xmark');
-      close.classList.remove('fa-bars');
 
       gsap.from(x, {
         x: 500, // background-color
@@ -32,6 +51,32 @@ function myFunction() {
         x: 0,
         duration: 2,
       });
+      x.style.display = "block";
+
+      gsap.from(close, {
+        opacity: 1,
+        duration: 0.5,
+      })
+
+      gsap.to(close, {
+        opacity: 0,
+        duration: 0.5,
+      })
+      setTimeout(function() {
+        close.classList.remove('fa-bars');
+        close.classList.add('fa-xmark');
+
+        gsap.from(close, {
+          opacity: 0,
+          duration: 0.5,
+        })
+  
+        gsap.to(close, {
+          opacity: 1,
+          duration: 0.5,
+        })
+
+      }, 500);
     }
   }
 
