@@ -45,7 +45,7 @@ html {
     position: fixed;
     top: 0;
     background-image: url(../assets/img/2k_stars_milky_way.jpg);
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     height: 100dvh;
     width: 100dvw;
@@ -275,6 +275,7 @@ button {
     .btns-container button {
         font-size: 12px!important;
     }
+
 
     .stat1, .stat2, .stat3, .stat4 {
         height: max-content;
