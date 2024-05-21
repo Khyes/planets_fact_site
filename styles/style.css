@@ -320,13 +320,32 @@ button {
         display: flex;
         flex-direction: column;
         min-width: 100dvw;
-        height: 100dvh;;
+        height: 90dvh;
+        padding-bottom: 9rem;
+        justify-content: space-between;
 
     }
 
     .link-container a {
         margin-bottom: 1rem;
         font-size: 20px;
+    }
+
+    .link-container a::after {
+        content: "";
+        position: relative;
+        display: block;
+        top: 2dvh;
+        left: -32px;
+        border-bottom: 1px solid #737373;
+        height: 1px;
+        /* background-color: white; */
+        width: 100dvw;
+    }
+
+    .link-container a.active-nav-mobile {
+        font-weight: 700;
+        color: var(--color-btn);
     }
 
     .info-container {
@@ -349,9 +368,16 @@ button {
         margin-bottom: 0rem;
     }
 
-    .icon {
+    button.icon {
         color: white;
-        font-size: 20px;
+        font-size: 15px;
+        border: 1px solid #737373;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .btns-container {
